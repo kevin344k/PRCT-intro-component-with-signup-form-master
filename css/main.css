@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  min-width: 375px;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-mobile.png");
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+main .section-paragraph {
+  margin: auto;
+  max-width: 375px;
+  color: white;
+  text-align: center;
+}
+main .section-paragraph h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0 30px;
+}
+main .section-paragraph p {
+  margin-top: 16px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 40px;
+}
+main .section-form {
+  width: 100%;
+}
+main .section-form .div-demo {
+  width: 100%;
+  background-color: hsl(248, 32%, 49%);
+  padding: 15px 30px;
+  height: auto;
+  color: hsl(246, 25%, 77%);
+  font-weight: normal;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.24);
+}
+main .section-form .div-demo span {
+  font-weight: bold;
+  color: white;
+}
+main .section-form .section-div--form {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+main .section-form .section-div--form form {
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+main .section-form .section-div--form form div {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.247);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section-form .section-div--form form div:hover {
+  border: 1px solid hsl(248, 32%, 49%);
+}
+main .section-form .section-div--form form div:active {
+  border: 1px solid hsl(248, 32%, 49%);
+}
+main .section-form .section-div--form form div:focus {
+  border: 1px solid hsl(248, 32%, 49%);
+}
+main .section-form .section-div--form form div input {
+  border: none;
+  padding: 15px 25px 15px 10px;
+  font-weight: 800;
+  outline: none;
+}
+main .section-form .section-div--form form div .email-placeholder::-moz-placeholder {
+  color: hsl(0, 100%, 74%);
+}
+main .section-form .section-div--form form div .email-placeholder::placeholder {
+  color: hsl(0, 100%, 74%);
+}
+main .section-form .section-div--form form div .ico-error {
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/icon-error.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+  display: none;
+}
+main .section-form .section-div--form form button {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: inset 0px -3px 2px 1px rgba(0, 0, 0, 0.12);
+}
+main .section-form .section-div--form form button:hover {
+  background-color: hsla(154, 59%, 51%, 0.747);
+}
+main .section-form .section-div--form form p {
+  color: hsl(246, 25%, 77%);
+}
+main .section-form .section-div--form form p span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 800;
+}
+main .section-form .section-div--form form .span-text-error {
+  display: none;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: right;
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+}
+main .section-form .section-div--form form .div-error {
+  border: 1px solid hsl(0, 100%, 74%);
+  margin-bottom: 2px;
+}
+
+@media (min-width: 1440px) {
+  main {
+    display: flex;
+    max-width: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/bg-intro-desktop.png");
+    padding: 80px;
+  }
+  main .section-paragraph {
+    text-align: left;
+    padding: 0 40px;
+    width: 50%;
+    max-width: none;
+  }
+  main .section-paragraph h1 {
+    display: inline;
+    font-size: 4rem;
+    margin: 0;
+    width: 80%;
+  }
+  main .section-paragraph p {
+    font-size: 1.8rem;
+  }
+  main .section-form {
+    width: 600px;
+    margin: auto;
+  }
+  main .section-form .section-div--form form {
+    padding: 40px;
+  }
+}/*# sourceMappingURL=main.css.map */
